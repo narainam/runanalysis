@@ -88,7 +88,7 @@ run_analysis <- function() {
     sb2 <- dcast(sb1, Subject+Activity ~ variable, mean)
     ##Step#5 is complete. 'sb2' is the tidy dataset
     
-    write.table(sb2, "./UCI HAR Dataset/merged/step5.txt",row.names=FALSE) 
+    write.table(sb2, "./UCI HAR Dataset/step5.txt",row.names=FALSE) 
     ##Written to file
 
 }
