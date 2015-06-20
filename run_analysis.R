@@ -18,7 +18,7 @@ run_analysis <- function() {
     ##Ingest and replace with activity labels depending on values
     ytest <- read.table("./UCI HAR Dataset/test/y_test.txt")
     
-    ##creating ytrain2 vector to hold descriptive activity names
+    ##creating ytest2 vector to hold descriptive activity names
     i <- 1
     ytest2 <- vector(mode="character", length=length(ytest[,1]))
     while(i <= length(ytest[,1])) {
