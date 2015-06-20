@@ -18,7 +18,7 @@ The sequence of steps that were followed to complete the requirement were:
 6. Sort the data sets by subject
 7. Create the list of columns that we will need for just the mean and standard deviation (and including Subject and Activitylabels)
 8. Subset the dataframe created in Step#6 above with just the columns we need (as per Step#7)
-9. Use 'melt' as a first step to calculating the mean of each variable for each activity and each subject. Apply 'melt' from the 'reshape2' library to the dataframe in Step#8toget a frame with a row each for each reading of each combination of Subject, Activity, & Feature.
+9. Use 'melt' as a first step to calculating the mean of each variable for each activity and each subject. Apply 'melt' from the 'reshape2' library to the dataframe in Step#8 to get a frame with a row each for each reading of each combination of Subject, Activity, & Feature.
 10. Use 'dcast' as the last step, with the application of mean on each of the features (by choosing a Subject+Activity combination in the dcast function). The resulting dataset will therefore be the 'tidy' dataset required.
 11. Write the final dataset to file.
 
